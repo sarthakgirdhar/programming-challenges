@@ -45,8 +45,8 @@ Print three lines as explained above.
     6
 ###Explanation 
 
-**3 + 2 --> 5**
+**3 + 2 ==> 5**
 
-**3 - 2 --> 1** 
+**3 - 2 ==> 1** 
 
-**3 * 2 --> 6**
+**3 * 2 ==> 6**
