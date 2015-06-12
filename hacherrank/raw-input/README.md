@@ -17,7 +17,7 @@ Read a string from the console and print it.
 The first and only line of input contains a string.
 
 ###Constraints 
-String length = 500
+String length <= 500
 
 ###Output Format 
 Print the same string back.
