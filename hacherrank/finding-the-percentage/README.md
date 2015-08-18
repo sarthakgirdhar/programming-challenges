@@ -40,6 +40,7 @@ Note : Key of a dictionary is immutable. So, we can't use list as a key as list 
 **>> a['one']** 
 
 **1** 
+
 **>> if ('three' in a):** # To check whether a certain string exist as index in dictionary 
 
 **.. print a['three']** 
