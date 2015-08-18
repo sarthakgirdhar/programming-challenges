@@ -1,16 +1,18 @@
 ##Problem Statement
 
-When we talk about storing multiple values in a container-like data-structure, the first thing that comes to mind is a list.
+When we talk about storing multiple values in a container-like data-structure, the first thing that comes to mind is a *list*.
 
 You can initialize a list as
 
     >>> arr = list()
     or simply
     >>> arr = []
+
 or with a few elements as
 
 
     >>> arr = [1,2,3]
+
 Elements can be accessed easily like you do in most programming languages.
 
     >>> print arr[0]
@@ -25,65 +27,81 @@ Let's look at some of the methods you can use on List.
 
 
 
-1. append(x) Adds a single element 'x' to the end of list.
+1.) append(x) 
 
-       arr.append(9) print arr [1, 2, 3, 9]
+Adds a single element 'x' to the end of list.
 
-2. extend(L) 
+    >>> arr.append(9)   
+    >>> print arr  
+    [1, 2, 3, 9]
 
-    Merges another list 'L' to the end.
+2.) extend(L) 
 
-    arr.extend([10,11]) print arr [1, 2, 3, 9, 10, 11]
+Merges another list 'L' to the end.
 
-3. insert (i,x) 
+    >>> arr.extend([10,11])
+    >>> print arr
+    [1, 2, 3, 9, 10, 11]
 
-    Inserts element 'x' at position 'i'.
+3.) insert (i,x) 
 
-    arr.insert(3,7) print arr [1, 2, 3, 7, 9, 10, 11]
+Inserts element 'x' at position 'i'.
 
-4. remove(x) 
+    >>> arr.insert(3,7)
+    >>> print arr
+    [1, 2, 3, 7, 9, 10, 11]
 
-    Removes the first occurrence of element x.
+4.) remove(x) 
 
-    arr.remove(10) 
+Removes the first occurrence of element x.
 
-    arr 
-    
+    >>> arr.remove(10)  
+    >>> arr  
     [1, 2, 3, 7, 9, 11]
 
-5. pop() 
+5.) pop() 
 
-	Removes the last element of list. If an argument is passed, that index item is popped out.
+Removes the last element of list. If an argument is passed, that index item is popped out.
 
-	temp = arr.pop() print temp 11
+    >>> temp = arr.pop()
+    >>> print temp 
+    11
 
-6. index(x) 
+6.) index(x) 
 
-	Returns the first index of a value in the list. Throws error if it's not found.
+Returns the first index of a value in the list. Throws error if it's not found.
 
-	temp = arr.index(3) print temp 2
+    >>> temp = arr.index(3)
+    >>> print temp
+    2
 
-7. count(x) 
+7.) count(x) 
 
-	Counts the number of occurrences of an element x.
+Counts the number of occurrences of an element x.
 
-	temp = arr.count(1) print temp 1
+    >>> temp = arr.count(1)
+    >>> print temp
+    1
 
-8. sort() 
+8.) sort() 
 
-	Sorts the list.
+Sorts the list.
 
-	arr.sort() print arr [1, 2, 3, 7, 9]
+    >>> arr.sort()
+    >>> print arr
+    [1, 2, 3, 7, 9]
 
-9. reverse() 
+9.) reverse() 
 
-	Reverses the list.
+Reverses the list.
 
-	arr.reverse() print arr [9, 7, 3, 2, 1]
+    >>> arr.reverse()
+    >>> print arr
+    [9, 7, 3, 2, 1]
 
 ###Task 
 
-You have to initialize your list **L = []** and follow the **N** commands given in **N** lines.
+You have to initialize your list **L = []** and follow the ***N*** commands given in ***N*** lines.
 
 Commands will be 1 of the 8 commands as given above, other than extend, and each command will have its value separated by space.
 
@@ -104,6 +122,7 @@ Follow this example:
     pop
     reverse
     print
+
 ###Sample Output
 
     [6, 5, 10]
