@@ -46,7 +46,7 @@ Eg :
 
 **3** 
 
-**>> a[0]*****a[2]** # Indexing of list starts from 0 
+**>> a[0]** * **a[2]** # Indexing of list starts from 0 
 
 35 
 
